@@ -1,7 +1,11 @@
+// WARNING!!
+// He desactivado el code completion de copilot desde los ajusted de copilot
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
+
 }
 
 function draw() {
-  background(220);
+  background("black");
+  circle(displayWidth/2, displayHeight/2, 100)
 }
